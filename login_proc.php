@@ -11,9 +11,9 @@
     $pass = $_POST["pass"];
 
 
-    if ($id == 'admim' && $pass == 'adim1234')
-    {echo 'Welcomn !!!';}
+    if ($id == 'admin' && $pass == 'admin1234')
+    {echo '로그인 성공하였습니다.';}
     else{
-        echo "who are you??"
+        echo "아이디와 비밀번호를 정확하게 입력바랍니다."
     ;}
     ?>
