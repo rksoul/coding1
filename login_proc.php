@@ -12,8 +12,8 @@
 
 
     if ($id == 'admim' && $pass == 'adim1234')
-    { echo 'welcomn !!!'};
+    {echo 'Welcomn !!!';}
     else{
         echo "who are you??"
-    };
+    ;}
     ?>
