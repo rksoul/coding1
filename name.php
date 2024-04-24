@@ -14,28 +14,27 @@
         <form method="POST" action="login_proc.php">
         <h1>Login</h1>
             <div class="input-box">
-                <label for="">User ID</label>
-                <input type="text" name="id" placeholder="User ID"/>
+                <input type="text" name="id" required />
+                <label>User ID</label>               
                 <i class="bi bi-person"></i>
             </div>
             <div class="input-box">
-                <label for="">Password</label>
-                <input type="password" name="pass" placeholder="User password"/>
+                <input type="password" name="pass" required/>
+                <label>Password</label>
                 <i class="bi bi-lock"></i>
             </div>
+            <div class="checkbox">
+                <span>
+                    <input type="checkbox" id="checkbox-input">
+                    <label for="checkbox-input">Remember me</label>
+                </span>
+            </div>
 
-                <input type="submit" class="submit-btn" value="login"/>
-
-             </div>
-
-
+                 <input type="submit" class="submit-btn" value="login"/>
 
             </form>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
 </body>
 </html>
-
-
-
-
-
