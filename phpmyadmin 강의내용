@@ -1,0 +1,16 @@
+*데이터를 가져온다*
+select [컬럼이름] from [테이블이름]
+select name from text_table
+
+*데이터를 넣는 명령어*
+insert into [테이블 이름] (컬럼이름) value (값)
+예)insert into test_table (name,score,pass) value ('doldol', '80', '2222')
+
+예2) insert into test_table value (NULL, 'dangehl', '70', '3333')
+
+*정교한 데이터를 가져오기*
+where 구문.
+select ~~ from [테이블] where [조건] 
+예) select from [테이블] where name='dksoul'
+예2) SELECT name,pass FROM test_table WHERE name='dksoul'
+예2) SELECT name,pass FROM test_table WHERE name='dksoul' and pass='1234'
