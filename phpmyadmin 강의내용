@@ -30,10 +30,10 @@ select ~~ from [테이블] where [조건]
     $sql = 'select * from test_table';
 
     $result = mysqli_query($db_conn, $sql);
-// 하나의 행을 가져오는게 fetch 
-    // $row = mysqli_fetch_array($result);
-
-    var_dump($result);
+// 하나의 행을(row) 가져오는게 mysqli_fetch_array 함수를 사용
+    $row = mysqli_fetch_array($result);
+// 그리고 그 결과를 row에 넣어서 화면에 출력
+    var_dump($row);
 
 
 
@@ -45,4 +45,3 @@ select ~~ from [테이블] where [조건]
     // $db_conn = mysqli_connect(DB_SERVER, DB_USERNAME,DB_PASSWORD, DB_NAME);
 
 ?>  
-
